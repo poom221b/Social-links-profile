@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+.container {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 0.75rem;
+}
+
+.main-card {
+    margin: 2rem;
+
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+.card {
+    background-color: hsl(0, 0%, 20%);
+    margin: 1rem 0em;
+    padding: 1rem 6rem ;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    transition: backgroud .3s ease, color .3s ease;
+}
+
+.card:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+.center {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 5rem;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.path {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.address {
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 1rem;
+}
